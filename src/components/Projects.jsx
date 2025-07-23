@@ -5,14 +5,14 @@ const Projects = () => {
       description: "Visualize classic sorting algorithms like bubble sort, selection sort, and insertion sort.",
       tech: "HTML, CSS, JavaScript",
       link: "https://github.com/NISHANT9032/sorting-visualizer",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/83/Bubble-sort-example-300px.gif"
+      imageUrl: "https://i.postimg.cc/RFHf0Y1Z/SV.jpg"
     },
     {
       title: "Registration Form",
       description: "Responsive and animated registration form with base64 profile image upload and session-based login.",
       tech: "HTML, CSS, JavaScript",
       link: "https://github.com/NISHANT9032/task-1-registration-form",
-     imageUrl: "https://colorlib.com/wp/wp-content/uploads/sites/2/colorlib-reg-form-13.jpg"
+     imageUrl: "https://i.postimg.cc/kXdN27p3/Reg.jpg"
     }
   ];
 
