@@ -5,12 +5,14 @@ const Projects = () => {
       description: "Visualize classic sorting algorithms like bubble sort, selection sort, and insertion sort.",
       tech: "HTML, CSS, JavaScript",
       link: "https://github.com/NISHANT9032/sorting-visualizer",
+      imageUrl: "https://www.pngmart.com/files/22/Web-Development-PNG-Isolated-HD.png"
     },
     {
       title: "Registration Form",
       description: "Responsive and animated registration form with base64 profile image upload and session-based login.",
       tech: "HTML, CSS, JavaScript",
       link: "https://github.com/NISHANT9032/task-1-registration-form",
+      imageUrl: "https://www.kindpng.com/picc/m/255-2553260_registration-icon-png-transparent-png.png"
     }
   ];
 
@@ -27,7 +29,7 @@ const Projects = () => {
     className="bg-gray-100 dark:bg-gray-800 rounded-lg p-6 shadow hover:shadow-lg transition"
   >
     <img
-      src="https://www.pngmart.com/files/22/Web-Development-PNG-Isolated-HD.png"
+      src={project.imageUrl}
       alt={project.title}
       className="w-full h-48 object-cover rounded mb-4"
     />
